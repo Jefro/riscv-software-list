@@ -3,7 +3,7 @@
 Name | Version | Status | RISC-V Repo | Upstream Repo | Priv Spec | User Spec | Link(s) | Maintainers
 ---- | ------- | ------ | ----------- | ------------- | --------- | --------- | ------- | -----------
 
-Linux Kernel | 4.15 | Merged | [github](https://github.com/riscv/riscv-linux) | [kernel.org](ttps://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) | 1.10 | 2.0 | abc | Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
+Linux Kernel | 4.15 | Merged | [github](https://github.com/riscv/riscv-linux) | [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) | 1.10 | 2.0 | abc | Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
 
 
 
