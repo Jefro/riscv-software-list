@@ -224,11 +224,8 @@ Buildroot		 | 2018-09-25 (64 bit), 2019-01-10 (32 bit) | Basic/QEMU |  | [busybo
 
 Name | Version | Status | RISC-V Repo | Upstream Repo | Priv Spec | User Spec | Link(s) | Maintainers
 ---- | ------- | ------ | ----------- | ------------- | --------- | --------- | ------- | -----------
-Fedora			 | 25 | Some upstreamed |  |  |  | 2.0 | [fedora](http://fedoraproject.org/wiki/Architectures/RISC-V) | Richard WM Jones, Stefan O’Rear, David Abdurachmanov
-Debian			 | sid/unstable | gcc, binutils | OOT |  |  | 2.0 | [debian wiki](https://wiki.debian.org/RISC-V), 
-[mit.edu](http://riscv.mit.edu/), 
-[riscv.org](https://content.riscv.org/wp-content/uploads/2016/07/Wed1115_Working_Towards_a_Debian_RISC-V_Port.pdf), 
-[Annc](https://people.debian.org/~mafm/posts/2017/20170422_debian-gnulinux-port-for-risc-v-64-bit-riscv64/) | Manuel A. Fernandez Montecelo
+Fedora	| 25 | Some upstreamed |  |  |  | 2.0 | [fedora](http://fedoraproject.org/wiki/Architectures/RISC-V) | Richard WM Jones, Stefan O’Rear, David Abdurachmanov
+Debian | sid/unstable | gcc, binutils | OOT |  |  | 2.0 | [debian wiki](https://wiki.debian.org/RISC-V), [mit.edu](http://riscv.mit.edu/), [riscv.org](https://content.riscv.org/wp-content/uploads/2016/07/Wed1115_Working_Towards_a_Debian_RISC-V_Port.pdf), [Annc](https://people.debian.org/~mafm/posts/2017/20170422_debian-gnulinux-port-for-risc-v-64-bit-riscv64/) | Manuel A. Fernandez Montecelo
 OpenMandriva	 | master | Merged[1] | [openmandriva.org](http://abf-downloads.openmandriva.org/cooker/repository/riscv64/) | [github.com](https://github.com/OpenMandrivaAssociation) | 2.0 | 2.0 | [openmandriva.org](http://openmandriva.org/) | Bernhard "Bero" Rosenkränzer
 openSUSE		 | Tumbleweed |  |  | [opensuse.org](https://build.opensuse.org/project/show/openSUSE:Factory:RISCV) | [opensuse.org](https://en.opensuse.org/openSUSE:RISC-V) | 2.2 |  | Andreas Schwab (SUSE)
 Gentoo			 | | OOT | [github.com](https://github.com/palmer-dabbelt/riscv-gentoo) | [github.com](https://github.com/gentoo/gentoo) |  | 2.0 |  | Palmer Dabbelt (University of California, Berkeley)
