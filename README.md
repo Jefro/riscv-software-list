@@ -1,7 +1,7 @@
 # RISC-V Software Ecosystem Overview
 
 | Name | Version | Status | RISC-V Repo | Upstream Repo | Priv Spec | User Spec | Link(s) | Maintainers
-| ---- | ------- | ------ | ----------- | ------------- | --------- | --------- | -------   -----------
+| ---- | ------- | ------ | ----------- | ------------- | --------- | --------- | ------- | -----------
 | Linux Kernel	| 4.15 | Merged | [github](https://github.com/riscv/riscv-linux) | [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) | 1.10 | 2.0 | | Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
 
 | seL4	| 9.0.1 | Merged | [github](https://github.com/heshamelmatary/sel4riscv-manifest/blob/master/sel4test-06032018.xml) | [github](https://github.com/seL4/seL4) | 1.10 | 2.0 | [Announcement](http://heshamelmatary.blogspot.com.au/2017/06/update-sel4risc-v-smp-support-sel4.html) | Hesham Almatary and Data61/CSIRO
