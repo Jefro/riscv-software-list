@@ -211,7 +211,6 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 
 # OS and OS kernels
 
-
 ## Linux built from source
 
 Name | Version | Status | RISC-V Repo | Upstream Repo | Priv Spec | User Spec | Link(s) | Maintainers
@@ -230,30 +229,30 @@ Debian			 | sid/unstable | gcc, binutils | OOT |  |  | 2.0 | [debian wiki](https
 [mit.edu](http://riscv.mit.edu/), 
 [riscv.org](https://content.riscv.org/wp-content/uploads/2016/07/Wed1115_Working_Towards_a_Debian_RISC-V_Port.pdf), 
 [Annc](https://people.debian.org/~mafm/posts/2017/20170422_debian-gnulinux-port-for-risc-v-64-bit-riscv64/) | Manuel A. Fernandez Montecelo
-OpenMandriva	 | master | Merged[^1] | [openmandriva.org](http://abf-downloads.openmandriva.org/cooker/repository/riscv64/) | [github.com](https://github.com/OpenMandrivaAssociation) | 2.0 | 2.0 | [openmandriva.org](http://openmandriva.org/) | Bernhard "Bero" Rosenkränzer
+OpenMandriva	 | master | Merged[1] | [openmandriva.org](http://abf-downloads.openmandriva.org/cooker/repository/riscv64/) | [github.com](https://github.com/OpenMandrivaAssociation) | 2.0 | 2.0 | [openmandriva.org](http://openmandriva.org/) | Bernhard "Bero" Rosenkränzer
 openSUSE		 | Tumbleweed |  |  | [opensuse.org](https://build.opensuse.org/project/show/openSUSE:Factory:RISCV) | [opensuse.org](https://en.opensuse.org/openSUSE:RISC-V) | 2.2 |  | Andreas Schwab (SUSE)
 Gentoo			 | | OOT | [github.com](https://github.com/palmer-dabbelt/riscv-gentoo) | [github.com](https://github.com/gentoo/gentoo) |  | 2.0 |  | Palmer Dabbelt (University of California, Berkeley)
-Parabola GNU/Linux-libre | rolling | complete base-develo, cross-makepkg, chroot | [github.com](https://github.com/oaken-source/parabola-riscv64-bootstrap) | [parabola.nu](https://git.parabola.nu/abslibre.git) |  | 2.0 | [parabola](https://parabola.nu) | Andreas Grapentin (University of Potsdam, HPI)
+Parabola GNU/Linux-libre | rolling | complete [2] | [github.com](https://github.com/oaken-source/parabola-riscv64-bootstrap) | [parabola.nu](https://git.parabola.nu/abslibre.git) |  | 2.0 | [parabola](https://parabola.nu) | Andreas Grapentin (University of Potsdam, HPI)
 januslinux		 | master | 64 bit only (QEMU) |  | [github.com](https://github.com/JanusLinux/janus) |  | 2.2 |  | nee-san
 
-[^1]: core building (gcc+ld.bfd), ABI lp64d (with -march=rv64imafdc) 
+[1]: core building (gcc+ld.bfd), ABI lp64d (with -march=rv64imafdc)  
+[2]: base-devel, cross-makepkg, chroot
 
 ## Real-time Operating Systems
 
 Name | Version | Status | RISC-V Repo | Upstream Repo | Priv Spec | User Spec | Link(s) | Maintainers
 ---- | ------- | ------ | ----------- | ------------- | --------- | --------- | ------- | -----------
-RTEMS | 5 | Merged [^1]| [rtems.org](https://git.rtems.org/rtems/) | | | | [Docs](https://docs.rtems.org/branches/master/user/bsps/bsps-riscv.html#riscv) | Hesham Almatary
+RTEMS | 5 | Merged [1]| [rtems.org](https://git.rtems.org/rtems/) | | | | [Docs](https://docs.rtems.org/branches/master/user/bsps/bsps-riscv.html#riscv) | Hesham Almatary
 FreeRTOS | 10.2.0 | Merged | | [sourceforge](https://www.sourceforge.net/projects/freertos/) | | 2.0 | [Notes](https://www.freertos.org/Using-FreeRTOS-on-RISC-V.html) | AWS
-Zephyr			 | 1.13.0 | Merged[^2] |  | [github](https://github.com/zephyrproject-rtos/zephyr/) | 1.9.1 | 2.1 | [docs](http://docs.zephyrproject.org/boards/riscv32/index.html) |  Karol Gugala (Antmicro), Peter Gielda (Antmicro), Nathaniel Graff (SiFive)
+Zephyr			 | 1.13.0 | Merged [2] |  | [github](https://github.com/zephyrproject-rtos/zephyr/) | 1.9.1 | 2.1 | [docs](http://docs.zephyrproject.org/boards/riscv32/index.html) |  Karol Gugala (Antmicro), Peter Gielda (Antmicro), Nathaniel Graff (SiFive)
 NuttX | 7.27 | Merged | | [bitbucket.org](https://bitbucket.org/nuttx/nuttx/src/master/) | | | [Docs](http://nuttx.org/Documentation/NuttX.html#riscv) | 
 Apache Mynewt	 |  |  |  |  |  | 2.0 | [Annc](https://riscv.org/wp-content/uploads/2016/07/Wed930_riscv_apachemynewt_v1.2.pdf) | James Pace, Runtime
 OpenWrt			 | top of trunk | OOT <4.19 | [github.com](https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shortlog;h=refs/heads/kitchensink-201810) |  |  | 2.0 | [binary repo](http://openwrt.uid0.hu) | Zoltan Herpai
 seL4 | 9.0.1 | Merged | [github](https://github.com/heshamelmatary/sel4riscv-manifest/blob/master/sel4test-06032018.xml) | [github](https://github.com/seL4/seL4) | 1.10 | 2.0 | [Annc](http://heshamelmatary.blogspot.com.au/2017/06/update-sel4risc-v-smp-support-sel4.html) | Hesham Almatary and Data61/CSIRO
 
-[^1]: Tier-1 RTEMS Target that runs on both simulators (Spike, QEMU, etc) and hardware with SMP, POSIX and Tests support
-[^2]: Support for RV32 QEMU Emulation, Zedboard Pulpino, SiFive HiFive1, MicroSemi M2GL025 Mi-V
+[1]: Tier-1 RTEMS Target that runs on both simulators (Spike, QEMU, etc) and hardware with SMP, POSIX and Tests support  
+[2]: Support for RV32 QEMU Emulation, Zedboard Pulpino, SiFive HiFive1, MicroSemi M2GL025 Mi-V
 
- 
 ## BSD distributions
 
 Name | Version | Status | RISC-V Repo | Upstream Repo | Priv Spec | User Spec | Link(s) | Maintainers
